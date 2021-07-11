@@ -10,7 +10,7 @@ Created on Thu Jul  1 10:21:27 2021
 import cv2
 import face_recognition
 
-webcam_video_stream = cv2.VideoCapture(0)
+webcam_video_stream = cv2.VideoCapture('location of video file')
 
 while True:
     
